@@ -1,0 +1,249 @@
+.a{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    
+    
+    
+}
+.b{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    
+    
+}
+.c{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.a{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+}
+.a1{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+.a2{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+
+
+.b{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.b1{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+
+}
+.b2{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+
+.c{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.c1{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.d{
+        border: solid black;
+    height: 120px;
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.d1{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+    
+    
+}
+.d2{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}.d3{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}.d4{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.e{
+    border: solid black;
+    height: 90px;
+    width: 90px;
+     display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+.e1{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+.e2{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+.f{
+     display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    border: solid black;
+    height: 90px;
+    width: 90px;
+
+}
+.f1{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+.f2{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+.g{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    
+    
+    
+}
+.h{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    
+    
+}
+.i{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+}
+.row3{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.g{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+}
+.g1{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+.g2{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+
+
+.h{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.h1{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+
+}
+
+
+.i{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.i1{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+.i2{
+    border: solid black;
+    height: 20px;
+    width: 20px;
+}
+
+.main{
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+}

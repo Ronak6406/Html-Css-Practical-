@@ -1,0 +1,118 @@
+ *{
+    background-color: whitesmoke;
+    color:black;
+} 
+
+/* Element Selector  */
+
+h1{
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+/* Class Selector  */
+
+.pera{
+    border: 2px solid black;
+    height: 100px;
+    width: 300px;
+    margin-left: 600px;
+    padding: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform:capitalize;
+    box-shadow: 0px 0px 10px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form{
+    border: 2px solid blue;
+    width: fit-content;
+    padding: 40px;
+    margin: 0px 0px 0px 500px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-image: url(https://marketplace.canva.com/EAGExgb63xw/2/0/900w/canva-beige-and-brown-aesthetic-background-instagram-story-LqZ8gkhsXXE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    box-shadow: 10px 10px;
+    color: black;
+
+}
+input{
+    background: transparent;
+    color: blue;
+}
+
+::placeholder{
+    color: black;
+}
+
+
+/* ID Selector  */
+
+#list{
+   border: 2px solid black;
+    height: 100px;
+    width: 300px;
+    margin-left: 500px;
+    padding: 40px;
+    background-color: darkgray;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-shadow: 10px 10px 10px black;
+    list-style: none; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px;
+}
+
+#liza{
+    border: 2px solid black;
+    height: 100px;
+    width: 300px;
+    margin-left: 500px;
+    padding: 40px;
+    background-color: lightsalmon;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 10px black;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    
+}
+table{
+    border: 5px solid black;
+    width: fit-content;
+    margin-left: 400px;
+    padding: 50px;
+    background-color:violet;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 10px blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/036/499/317/small_2x/silhouette-of-palm-tree-at-seaside-with-sunset-background-illustration-tropical-island-concept-flat-design-template-have-blank-space-vector.jpg);
+    background-position: center;
+
+}
+h2,h3,h4,h5,h6{
+    color: blue;
+}

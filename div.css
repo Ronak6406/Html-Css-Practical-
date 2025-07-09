@@ -1,0 +1,171 @@
+.a{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    background-color: blueviolet;
+    animation: ani 5s linear infinite;
+}
+.b{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    background-color: blueviolet;
+    animation: ani 5s linear infinite;
+}
+.c{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    background-color: blueviolet;
+    animation: ani 5s linear infinite;
+}
+.d{
+    border: 2px solid black;
+    height: 90px;
+    width: 350px;
+    background-color: blueviolet;
+    animation: ani 5s linear infinite;
+    display: flex;
+    align-items: center;
+    animation: ball 5s ease-in-out infinite;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+}
+.e{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    background-color: blueviolet;
+    animation: ani 5s linear infinite;
+}
+.f{
+    border: 2px solid black;
+    height: 90px;
+    width: 90px;
+    background-color: blueviolet;
+    animation: ani 5s linear infinite;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    animation: ani 5s linear infinite;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 650px;
+    align-items: center;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+
+body{
+    overflow-y: hidden;
+    margin: 0;
+    background-color: black;
+}
+@keyframes ani {
+    0%{
+        background-color: blue;
+    }
+    10%{
+        background-color: orange;
+    }
+    20%{
+        background-color: purple;
+    }
+    30%{
+        background-color: yellow;
+    }
+    40%{
+        background-color: green;
+    }
+    50%{
+        background-color: black;
+    }
+    60%{
+        background-color: brown;
+    }
+    70%{
+        background-color: grey;
+    }
+    80%{
+        background-color: violet;
+        
+    }
+    90%{
+        background-color: darkolivegreen;
+    }
+    100%{
+        background-color: crimson;
+        rotate: 360deg;
+        
+    }
+}
+/* CSS */
+/* Ball styling */
+.d1 {
+  border: 2px solid black;
+  background-color: aqua;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  animation: slideBall 2s ease-in-out infinite;
+  box-shadow: 0 0 10px cyan, 0 0 20px aqua;
+}
+
+/* Track/Path */
+.d {
+  border: 2px solid black;
+  height: 90px;
+  width: 350px;
+  background-color: #6a0dad;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  /* Removed conflicting animation: ani */
+}
+
+/* Slide Animation */
+@keyframes slideBall {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(120px) translateY(-5px);
+  }
+  50% {
+    transform: translateX(310px) translateY(0);
+  }
+  75% {
+    transform: translateX(120px) translateY(-5px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+
